@@ -1,0 +1,10 @@
+git config --global user.name "x751685875"
+git config --global user.email "mail@xuyongheng.com"
+ssh-keygen -t rsa -C "mail@xuyongheng.com"
+
+cat C:\\Users\\Administrator\\.ssh\\id_rsa.pub | clip
+
+ssh -T git@github.com
+
+git clone git@github.com:x751685875/test.git
+

@@ -9,8 +9,7 @@
         "glob": "^10.3.10",
         "https": "^1.0.0",
         "p-limit": "^5.0.0",
-        "path": "^0.12.7",
-        "puppeteer": "*"
+        "path": "^0.12.7"
     },
     "scripts": {
         "start": "node src/main.js",
