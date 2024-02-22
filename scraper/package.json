@@ -1,0 +1,34 @@
+{
+    "name": "scraper",
+    "version": "0.0.1",
+    "type": "module",
+    "description": "This is an example of a Crawlee project.",
+    "dependencies": {
+        "cli-progress": "^3.12.0",
+        "crawlee": "^3.0.0",
+        "glob": "^10.3.10",
+        "https": "^1.0.0",
+        "p-limit": "^5.0.0",
+        "path": "^0.12.7",
+        "puppeteer": "*"
+    },
+    "scripts": {
+        "start": "node src/main.js",
+        "start1": "node src/main1.js",
+        "start2": "node src/main2.js",
+        "start3": "node src/main3.js",
+        "start4": "node src/main4.js",
+        "get-tv-season_id": "node src/get-tv-season_id.js",
+        "get-tv-epi-list": "node src/get-tv-epi-list.js",
+        "resources-1-html": "node src/resources-1-html.js",
+        "resources-2-css-js": "node src/resources-2-css-js.js",
+        "resources-3-image": "node src/resources-3-image.js",
+        "miss-url": "node src/miss-url.js",
+        "filter-url": "node src/filter-url.js",
+        "existing-url": "node src/existing-url.js",
+        "total": "node src/total.js",
+        "clear": "node src/clear.js"
+    },
+    "author": "It's not you it's me",
+    "license": "ISC"
+}
